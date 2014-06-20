@@ -46,5 +46,9 @@ class PicturesController < ApplicationController
 	    #id is converted to an integer
   	end
 
-	
+	def new
+	end
+
+	def create
+	end
 end
