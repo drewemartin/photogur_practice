@@ -1,0 +1,7 @@
+<h1>Localhost:3000/pictures</h1>
+
+<% @pictures.each do |picture| %>
+	<p><%= picture[:title] %></p>
+	<p><%= picture[:artist] %></p>
+	<img src="<%= picture[:url] %>">
+	<% end %>
