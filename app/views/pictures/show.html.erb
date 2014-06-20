@@ -1,5 +1,6 @@
 <h1>Localhost:3000/pictures/<%= params[:id].to_i %>(:id)</h1>
 <h1>Picture</h1>
-<p><%= @picture[:title] %></p>
-<p><%= @picture[:artist] %></p>
-<img src="<%= @picture[:url] %>">
+<%= link_to "Back to Pictures", pictures_url %>
+<p><%= @picture.title %></p>
+<p><%= @picture.artist %></p>
+<%= image_tag(@picture.url) %>
