@@ -12,7 +12,5 @@ Photogur::Application.routes.draw do
 
   get 'pictures/:id' => 'pictures#show', as: "picture" #"picture refers to prefix alias in rake routes"
 
-  
-
-
+  delete 'pictures/:id' => 'pictures#destroy', as: "delete_picture"
 end
