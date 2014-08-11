@@ -1,4 +1,4 @@
-==Welcome to Photogur Practice
+==Welcome to Photogur Refactored
 
 This is a project modelled off the popular site Imgur. 
  
