@@ -5,7 +5,7 @@ This is a project modelled off the popular site Imgur.
  
 ==Functionality Highlights
 
-* preforms basics CRUD functions w/ images (this version includes deletion function)
+* preforms basic CRUD functions w/ images (this version includes deletion function)
 
 ==Specs
 
